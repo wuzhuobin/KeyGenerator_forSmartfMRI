@@ -1,0 +1,8 @@
+﻿  Checking Build System
+  CMake is re-running because D:/CCode/KeyGenerator/bin/CMakeFiles/generate.stamp is out-of-date.
+    the file 'D:/CCode/KeyGenerator/CMakeLists.txt'
+    is newer than 'D:/CCode/KeyGenerator/bin/CMakeFiles/generate.stamp.depend'
+    result='-1'
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/CCode/KeyGenerator/bin

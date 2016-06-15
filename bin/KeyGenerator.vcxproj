@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{C6928A8E-6093-30FF-82E9-BCCAC385DDD2}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>KeyGenerator</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\CCode\KeyGenerator\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">KeyGenerator.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">KeyGenerator</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\CCode\KeyGenerator\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">KeyGenerator.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">KeyGenerator</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\CCode\KeyGenerator\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">KeyGenerator.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">KeyGenerator</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\CCode\KeyGenerator\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">KeyGenerator.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">KeyGenerator</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\CCode\KeyGenerator\bin;D:\CCode\KeyGenerator;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\CCode\KeyGenerator\bin;D:\CCode\KeyGenerator;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\CCode\KeyGenerator\bin;D:\CCode\KeyGenerator;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;IPHLPAPI.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/CCode/KeyGenerator/bin/Debug/KeyGenerator.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/CCode/KeyGenerator/bin/Debug/KeyGenerator.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\CCode\KeyGenerator\bin;D:\CCode\KeyGenerator;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\CCode\KeyGenerator\bin;D:\CCode\KeyGenerator;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\CCode\KeyGenerator\bin;D:\CCode\KeyGenerator;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;IPHLPAPI.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/CCode/KeyGenerator/bin/Release/KeyGenerator.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/CCode/KeyGenerator/bin/Release/KeyGenerator.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\CCode\KeyGenerator\bin;D:\CCode\KeyGenerator;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\CCode\KeyGenerator\bin;D:\CCode\KeyGenerator;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\CCode\KeyGenerator\bin;D:\CCode\KeyGenerator;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;IPHLPAPI.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/CCode/KeyGenerator/bin/MinSizeRel/KeyGenerator.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/CCode/KeyGenerator/bin/MinSizeRel/KeyGenerator.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\CCode\KeyGenerator\bin;D:\CCode\KeyGenerator;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\CCode\KeyGenerator\bin;D:\CCode\KeyGenerator;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\CCode\KeyGenerator\bin;D:\CCode\KeyGenerator;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;IPHLPAPI.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/CCode/KeyGenerator/bin/RelWithDebInfo/KeyGenerator.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/CCode/KeyGenerator/bin/RelWithDebInfo/KeyGenerator.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\CCode\KeyGenerator\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/CCode/KeyGenerator/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+F:\cmake-3.5.2-win32-x86\bin\cmake.exe -HD:/CCode/KeyGenerator -BD:/CCode/KeyGenerator/bin --check-stamp-file D:\CCode\KeyGenerator\bin\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/CCode/KeyGenerator/CMakeLists.txt;D:\CCode\KeyGenerator\CMakeLists.txt;D:\CCode\KeyGenerator\bin\CMakeFiles\3.5.2\CMakeSystem.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;D:\CCode\KeyGenerator\bin\CMakeFiles\3.5.2\CMakeCCompiler.cmake;D:\CCode\KeyGenerator\bin\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCInformation.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;D:\CCode\KeyGenerator\bin\CMakeFiles\3.5.2\CMakeRCCompiler.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeRCInformation.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCXXInformation.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\MSVC-CXX.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows-MSVC-CXX.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;D:\CCode\KeyGenerator\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\CCode\KeyGenerator\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/CCode/KeyGenerator/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+F:\cmake-3.5.2-win32-x86\bin\cmake.exe -HD:/CCode/KeyGenerator -BD:/CCode/KeyGenerator/bin --check-stamp-file D:\CCode\KeyGenerator\bin\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/CCode/KeyGenerator/CMakeLists.txt;D:\CCode\KeyGenerator\CMakeLists.txt;D:\CCode\KeyGenerator\bin\CMakeFiles\3.5.2\CMakeSystem.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;D:\CCode\KeyGenerator\bin\CMakeFiles\3.5.2\CMakeCCompiler.cmake;D:\CCode\KeyGenerator\bin\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCInformation.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;D:\CCode\KeyGenerator\bin\CMakeFiles\3.5.2\CMakeRCCompiler.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeRCInformation.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCXXInformation.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\MSVC-CXX.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows-MSVC-CXX.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;D:\CCode\KeyGenerator\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\CCode\KeyGenerator\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/CCode/KeyGenerator/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+F:\cmake-3.5.2-win32-x86\bin\cmake.exe -HD:/CCode/KeyGenerator -BD:/CCode/KeyGenerator/bin --check-stamp-file D:\CCode\KeyGenerator\bin\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/CCode/KeyGenerator/CMakeLists.txt;D:\CCode\KeyGenerator\CMakeLists.txt;D:\CCode\KeyGenerator\bin\CMakeFiles\3.5.2\CMakeSystem.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;D:\CCode\KeyGenerator\bin\CMakeFiles\3.5.2\CMakeCCompiler.cmake;D:\CCode\KeyGenerator\bin\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCInformation.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;D:\CCode\KeyGenerator\bin\CMakeFiles\3.5.2\CMakeRCCompiler.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeRCInformation.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCXXInformation.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\MSVC-CXX.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows-MSVC-CXX.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;D:\CCode\KeyGenerator\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\CCode\KeyGenerator\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/CCode/KeyGenerator/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+F:\cmake-3.5.2-win32-x86\bin\cmake.exe -HD:/CCode/KeyGenerator -BD:/CCode/KeyGenerator/bin --check-stamp-file D:\CCode\KeyGenerator\bin\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/CCode/KeyGenerator/CMakeLists.txt;D:\CCode\KeyGenerator\CMakeLists.txt;D:\CCode\KeyGenerator\bin\CMakeFiles\3.5.2\CMakeSystem.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;D:\CCode\KeyGenerator\bin\CMakeFiles\3.5.2\CMakeCCompiler.cmake;D:\CCode\KeyGenerator\bin\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCInformation.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;D:\CCode\KeyGenerator\bin\CMakeFiles\3.5.2\CMakeRCCompiler.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeRCInformation.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCXXInformation.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\MSVC-CXX.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows-MSVC-CXX.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;F:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;D:\CCode\KeyGenerator\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\CCode\KeyGenerator\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\CCode\KeyGenerator\main.cpp"  />
+    <ClCompile Include="D:\CCode\KeyGenerator\MacEncoding.cpp"  />
+    <ClCompile Include="D:\CCode\KeyGenerator\getmacadd.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/CCode/KeyGenerator/bin/ZERO_CHECK.vcxproj">
+      <Project>739707A3-1323-3119-A57E-C8FAFC6DAFB6</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

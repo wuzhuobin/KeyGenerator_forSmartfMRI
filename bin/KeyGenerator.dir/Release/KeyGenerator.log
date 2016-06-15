@@ -1,0 +1,10 @@
+﻿  Building Custom Rule D:/CCode/KeyGenerator/CMakeLists.txt
+  CMake does not need to re-run because D:\CCode\KeyGenerator\bin\CMakeFiles\generate.stamp is up-to-date.
+  main.cpp
+  MacEncoding.cpp
+D:\CCode\KeyGenerator\MacEncoding.cpp(40): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  getmacadd.cpp
+D:\CCode\KeyGenerator\getmacadd.cpp(23): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+  正在生成代码...
+  KeyGenerator.vcxproj -> D:\CCode\KeyGenerator\bin\Release\KeyGenerator.exe
